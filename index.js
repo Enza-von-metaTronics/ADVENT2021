@@ -85,7 +85,7 @@ quotesArray.push  ({
 quotesArray.push  ({
     text:"Sei heilsam für andere,.." ,
     author: "Enza von metaTronics",
-    src: "img/tag10.JPG"
+    src: "img/tag10.jpg"
 });
 quotesArray.push  ({
     text:"..denn auch wenn du krank bist, leben deine Gedanken und sind wahr!" ,
@@ -95,7 +95,7 @@ quotesArray.push  ({
 quotesArray.push  ({
     text:"Sei DU - und nicht das Bild einer leeren Abziehbildgesellschaft,.."  ,
     author: "Enza von metaTronics",
-    src: "img/tag12.JPG"
+    src: "img/tag12.jpg"
 });
 
 //-----------
@@ -103,7 +103,7 @@ quotesArray.push  ({
 quotesArray.push  ({
     text: ".. denn Du Bist, und das Bild verblasst schnell.",
     author: "Enza von metaTronics",
-    src: "img/tag13.JPG"
+    src: "img/tag13.jpg"
 });
 quotesArray.push  ({
     text:"Vierhundertfünfzigtausend Worte, die vielleicht.." ,
@@ -118,7 +118,7 @@ quotesArray.push  ({
 quotesArray.push  ({
     text: "Vierhundertfünfzigtausend ... ",
     author: "Enza von metaTronics",
-    src: "img/tag16.JPG"
+    src: "img/tag16.jpg"
 });
 
 //----------
@@ -131,17 +131,17 @@ quotesArray.push  ({
 quotesArray.push  ({
     text: "Mögen sie durchdacht sein und möglichst rein von deiner Körperkreatur.",
     author: "Enza von metaTronics",
-    src: "img/tag18.JPG"
+    src: "img/tag18.jpg"
 });
 quotesArray.push  ({
     text: "SEI DU ..",
     author: "Enza von metaTronics",
-    src: "img/tag19.JPG"
+    src: "img/tag19.jpg"
 });
 quotesArray.push  ({
     text: ".. DIR SELBST, denn Freunde hast du wenig, die Dich in Dir verstehen.",
     author: "Enza von metaTronics",
-    src: "img/tag20.JPG"
+    src: "img/tag20.jpg"
 });
 //-----------
 quotesArray.push ({
