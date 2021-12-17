@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTSKALENDER 2021</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <button onclick="closeModal()">X</button>
+          <p id="quote">Some text in the Modal..</p>
+          <p id="author">Some author in the Modal...</p>
+
+          <img id="src" src="img/tag01.jpg">
+
+        </div>
+      
+      </div>
+      </div>
+    <main>
+<header>
+        <img id="logo" src="img/politronlogo100.png" alt="logo">
+        <h1>ADVENT 2021</h1>
+
+        <article class="heartBoxBox">
+        <section class="container">
+           <p id="dot1">&#10084;</p>
+           <p id="dot2">&#10084;</p>
+           <p id="dot3">&#10084;</p>
+        </section>
+        </article>
+</header>
+
+<main>
+    <article id="calendarBox">
+        <section id="weekDays">
+            <div class="restricted">Mo</div>
+            <div class="restricted">Di</div>
+            <div class="restricted">Mi</div>
+            <div class="restricted">Do</div>
+            <div class="restricted">Fr</div>
+            <div class="restricted">Sa</div>
+            <div class="restricted">So</div>
+        </section>
+
+        <section>
+            <div class="restricted">-</div>
+            <div class="restricted">-</div>
+            <div class="divHover" id="1" onclick="showGift(1)">1</div>
+            <div class="divHover" id="2" onclick="showGift(2)">2</div>
+            <div class="divHover" id="3" onclick="showGift(3)">3</div>
+            <div class="divHover" id="4" onclick="showGift(4)">4</div>
+            <div class="divHover" id="5" onclick="showGift(5)">5</div>
+        </section>
+
+        <section>
+            <div class="divHover" id="6" onclick="showGift(6)">6</div>
+            <div class="divHover" id="7" onclick="showGift(7)">7</div>
+            <div class="divHover" id="8" onclick="showGift(8)">8</div>
+            <div class="divHover" id="9" onclick="showGift(9)">9</div>
+            <div class="divHover" id="10" onclick="showGift(10)">10</div>
+            <div class="divHover" id="11" onclick="showGift(11)">11</div>
+            <div class="divHover" id="12" onclick="showGift(12)">12</div>
+        </section>
+
+        <section>
+            <div class="divHover" id="13" onclick="showGift(13)">13</div>
+            <div class="divHover" id="14" onclick="showGift(14)">14</div>
+            <div class="divHover" id="15" onclick="showGift(15)">15</div>
+            <div class="divHover" id="16" onclick="showGift(16)">16</div>
+            <div class="divHover" id="17" onclick="showGift(17)">17</div>
+            <div class="divHover" id="18" onclick="showGift(18)">18</div>
+            <div class="divHover" id="19" onclick="showGift(19)">19</div>
+        </section>
+
+        <section>
+            <div class="divHover" id="20" onclick="showGift(20)">20</div>
+            <div class="divHover" id="21" onclick="showGift(21)">21</div>
+            <div class="divHover" id="22" onclick="showGift(22)">22</div>
+            <div class="divHover" id="23" onclick="showGift(23)">23</div>
+            <div class="divHover" id="24" onclick="showGift(24)">24</div>
+            <div class="restricted">-</div>
+            <div class="restricted">-</div>
+        </section>
+    </article>
+</main>
+<footer></footer>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #031805;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logo{
+    margin-top: 1.5rem;
+}
+h1{
+    color: #7947d6;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 300;
+
+}
+.heartBoxBox{
+    display: flex;
+justify-content: center;
+    width: 10vw;
+    position: relative;
+}
+section.container{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    opacity: 0.9;
+    position: relative;
+}
+#dot1{
+    font-size: 6rem;
+    color: rgb(139, 0, 58);
+    z-index: 2;
+    padding: 0;
+    position: absolute;
+    align-items: center;
+
+}
+#dot2{
+    font-size: 4rem;
+    color: rgba(98, 59, 224, 0.445);
+    z-index: 3;
+    margin:1.3rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+
+}
+#dot3{
+    position: absolute;
+    font-size: 2rem;
+    color: rgba(80, 231, 105, 0.712);
+    z-index: 3;
+    padding: 0;
+    margin:2.4rem;
+    margin-bottom: 2rem;
+}
+main{
+    display: grid;
+    justify-content: center;
+
+}
+div{
+    display: inline-block;
+    width: 10vw;
+    height: auto;
+    background-color: rgba(31, 14, 131, 0.945);
+    border: 1px dotted rgb(151, 46, 142);
+    font-size: 16px;
+    text-align: center;
+    padding: 5vh 0;
+    color: rgba(178, 250, 178, 0.753);
+}
+
+.divHover:hover {
+    background-color: rgba(53, 33, 165, 0.945);
+    cursor: pointer;
+}
+
+.restricted{
+    background-color: rgba(29, 20, 78, 0.856);
+    cursor: default;
+}
+
+div p {
+    padding-top: 10px;
+}
+
+
+section{
+    font-size: 0px;
+}
+
+#calendarHeader div{
+    overflow: scroll;
+    font-weight: bold;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding: 0px;
+    top: 10vh;
+    left: 35vw;
+    width: 50vw; /* Full width */
+  }
+
+.modal div {
+    width: 100%;
+}
+button{
+    width: 3rem;
+    background-color: rgba(128, 255, 0, 0.822);
+}
+
+#myModal{
+    width: 450px;
+    
+}
+#author{
+    margin-bottom: 1.3rem;
+    font-weight: 100;
+    font-size: .5rem;
+    color: aqua;
+    
+}
+p#quote{
+    font-weight: 200;
+    color: aqua;
+    margin: 0 , 2rem;
+}
+footer{
+    height: 5rem;
+}
